@@ -7,7 +7,6 @@ import { useParams, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { UserAvatar } from "../user-avartar";
 
-
 interface ServerMemberProps {
   member: Member & { profile: Profile };
   server: Server;
@@ -40,7 +39,7 @@ export const ServerMember = ({ member, server }: ServerMemberProps) => {
       )}>
       <UserAvatar
         src={member.profile.imageUrl}
-        className="h-8 w-8 md:h-8 md:w-8"
+        className="h-8 w-8 md:h-8 md:w-8" 
       />
       <p
         className={cn(
