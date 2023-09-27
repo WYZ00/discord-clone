@@ -11,7 +11,7 @@ import { ServerSearch } from "./server-search";
 import { ServerSection } from "./server-section";
 import { ServerChannel } from "./server-channel";
 import { ServerMember } from "./server-member";
-import { ServerHeader } from "./Server-header";
+import { ServerHeader } from "./server-header";
 
 interface ServerSidebarProps {
   serverId: string;
