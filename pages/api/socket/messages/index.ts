@@ -60,7 +60,7 @@ export default async function Handler(
     }
 
     const member = server.members.find(
-      (member) => member.profileId === profile.id
+      (member: { profileId: any }) => member.profileId === profile.id
     );
 
     if (!member) {
