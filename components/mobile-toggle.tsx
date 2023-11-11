@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 
 import { NavigationSidebar } from "@/components/navigation/Navigation-Sidebar";
-import { ServerSidebar } from "@/components/server/server-sidebar";
+import { ServerSidebar } from "./server/server-sidebar";
 
 export const MobileToggle = ({ serverId }: { serverId: string }) => {
   return (

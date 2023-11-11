@@ -2,7 +2,6 @@ import { currentProfile } from "@/lib/current-profile";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
 import { redirectToSignIn } from "@clerk/nextjs";
-
 import { ServerSidebar } from "@/components/server/server-sidebar";
 
 const ServerIdLayout = async ({
